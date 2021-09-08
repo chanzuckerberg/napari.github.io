@@ -7,15 +7,12 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: "0 0 * * SUN"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
   build-and-deploy-book:
-    if: (github.event_name == 'schedule' && github.repository == 'napari/napari.github.io') || (github.event_name != 'schedule')
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
