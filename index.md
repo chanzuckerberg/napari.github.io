@@ -1,3 +1,47 @@
+---
+theme:
+  quickLinks:
+    - title: Community
+      content: Meet the team, our mission, and our values
+      url: /community/index.html
+
+    - title: Tutorials
+      content: Step by step guides for common napari workflows
+      url: /tutorials/index.html
+
+    - title: Plugins
+      content: Learn how to create a plugin that works with the napari ecosystem
+      url: /plugins/stable/index.html
+
+    - title: Release notes
+      content: See what’s been updated in the latest releases
+      url: /release/index.html
+
+    - title: API reference
+      content: Information on specific functions, classes, and methods
+      url: /api/stable/index.html
+
+    - title: Roadmaps
+      content: Find out what we plan to build next and into the near future
+      url: /roadmaps/index.html
+
+    - title: Developer guides
+      content: Explanations about how napari works behind the screen
+      url: /guides/stable/index.html
+
+    - title: Developer resources
+      content: All you need to know to contribute to the napari codebase
+      url: /developers/index.html
+
+    - title: Source code
+      content: Jump out to GitHub to take a look at the code that runs napari
+      url: https://github.com/napari/napari
+
+    - title: napari hub
+      content: Discover, install, and share napari plugins
+      url: https://www.napari-hub.org
+---
+
 # napari
 
 ## multi-dimensional image viewer for python
@@ -13,7 +57,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 [![DOI](https://zenodo.org/badge/144513571.svg)](https://zenodo.org/badge/latestdoi/144513571)
 
------
+---
 
 **napari** is a fast, interactive, multi-dimensional image viewer for Python.
 It's designed for browsing, annotating, and analyzing large multi-dimensional
@@ -51,7 +95,7 @@ napari can be installed on most macOS, Linux, and Windows systems with Python
 pip install "napari[all]"
 ```
 
-*(See `Specifying a GUI Backend` below for an explanation of the `[all]` notation.)*
+_(See `Specifying a GUI Backend` below for an explanation of the `[all]` notation.)_
 
 ````{important}
 While not strictly required, it is *highly* recommended to install
