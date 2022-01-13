@@ -9,8 +9,6 @@ kernelspec:
   display_name: Python 3
   language: python
   name: python3
-theme:
-  intro: This is some intro about labels and it is super awesome.
 ---
 
 # labels layer tutorial

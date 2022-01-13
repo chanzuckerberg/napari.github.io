@@ -159,8 +159,8 @@ pip install "napari[pyside2]"  # for PySide2
 
 ## Getting started
 
-If you are new to napari, check out our
-[getting started guide](tutorials/fundamentals/getting_started.md).
+ If you are new to napari, check out our
+ [getting started guide](tutorials/fundamentals/getting_started.md).
 
 ### Example
 
